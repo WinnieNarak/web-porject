@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Optgroup Element</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 50px;
+        }
+        .form-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+        .form-select, .form-btn {
+            width: 200px;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-btn {
+            background: #007BFF;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+        .form-btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<h1>The Optgroup Element</h1>
+<p>The optgroup tag is used to group related options in a drop-down list:</p>
+
+<form action="/action_page.php" class="form-container">
+  <label for="pcs">Choose a PC:</label><br>
+  <select name="pcs" id="pcs" class="form-select">
+    <optgroup label="Windows PCs">
+      <option value="dell">Dell</option>
+      <option value="hp">HP</option>
+    </optgroup>
+    <optgroup label="Mac PCs">
+      <option value="macbook">MacBook</option>
+      <option value="imac">iMac</option>
+    </optgroup>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit" class="form-btn">
+</form>
+
+</body>
+</html>

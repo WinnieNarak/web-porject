@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Submit Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 50px;
+        }
+        .form-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+        .form-input {
+            width: 200px;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .submit-btn {
+            background: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .submit-btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Submit Form your name</h2>
+
+<form action="Winnie.html" method="GET" class="form-container">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Win" class="form-input"><br>
+  
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Nie" class="form-input"><br><br>
+  
+  <input type="submit" value="Submit" class="submit-btn">
+</form> 
+
+</body>
+</html>
+

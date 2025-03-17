@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Select Element</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 50px;
+        }
+        .form-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+        .form-select, .form-btn {
+            width: 200px;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-btn {
+            background: #007BFF;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+        .form-btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Select Element</h2>
+<p>Drop-down foods list:</p>
+
+<form action="/Winnie.html" method="GET" class="form-container">
+  <label for="foods">Choose a car:</label><br>
+  <select id="foods" name="foods" class="form-select">
+    <option value="Baked Ribs">Baked Ribs</option>
+    <option value="Mozzarella Sticks">Mozzarella Sticks</option>
+    <option value="Broil a Perfect Steak">Broil a Perfect Steak</option>
+    <option value="Banana Nut Bread">Banana Nut Bread</option>
+  </select>
+  <br><br>
+  <input type="submit" class="form-btn" value="Submit">
+</form>
+
+</body>
+</html>
